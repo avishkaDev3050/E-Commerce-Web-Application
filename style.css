@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-img {
+    width: 200px;
+    height: 100px;
+}
+
+.search-bar {
+    /* width: 60%; */
+    border: 3px solid rgb(213, 119, 119);
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.search-btn {
+    font-weight: bold; 
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    width: 49%;
+}
+
+.search-btn:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.ad-search-btn {
+    color: white;
+    font-weight: bold; 
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.ad-search-btn:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.navbar-icon {
+    background-image: url('resource/menu.png');
+}
+
+.invoice-header h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.invoice-footer {
+    font-size: 18px;
+}
+
+.cart-btn {
+    background-color: #6c757d;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+}
+
+.cart-btn:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.btn-signIn {
+    background-color: #6c757d;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+}
+
+.btn-signIn:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.btn-signUp {
+    background-color: #6c757d;
+    border: none;
+    padding: 5px;
+    width: 100%;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+}
+
+.btn-signUp:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.btn-learn-more {
+    background-color: #6c757d;
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-transform: uppercase !important;    
+}
+
+.btn-learn-more:hover {
+    background-color: cyan;
+    color: black;
+}
+
+.card-box {
+    border: 2px solid white;
+    border-radius: 20px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pro-box img{
+    width: 70px;
+    border-radius: 100%;
+}
+
+.adr-box img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+}
+
+.odr-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+.card-box:hover {
+    cursor: pointer;
+    background-color: cyan;
+    color: #000000;
+}
+
+.profile-pic img{
+    width: 100px;
+    border-radius: 100%;
+}
+
+.menu-option {
+    cursor: pointer;
+}
+
+.menu-option:hover {
+    border: 1px solid cyan;
+    border-radius: 20px;
+}
+
+.box-count {
+    font-size: 50px;
+}
